@@ -27,9 +27,13 @@ LIBS += -lqcustomplot
 SOURCES += \
         main.cpp \
         mainwindow.cpp \
-    mainwidget.cpp
+    mainwidget.cpp \
+    updatethread.cpp \
+    datamodel.cpp
 
 HEADERS += \
         mainwindow.h \
-    mainwidget.h
+    mainwidget.h \
+    updatethread.h \
+    datamodel.h
 
